@@ -1,0 +1,26 @@
+[
+     {
+        "headingName": "Graduation(Engineering)",
+        "qualificationName": "Bachelors in Technology(B Tech)",
+        "institution": "SCMS School of Engineering and Technology",
+        "board": "Mahathma Gandhi Unversity, Kottayam, Kerala",
+        "specialization":  "Electronics and Communication Engineering",
+        "percentage": "68%"
+    },
+    {
+        "headingName": "Higher Secondary(12th)",
+        "qualificationName": "Higher Secondary(12th)",
+        "institution": "Technical Higher Secondary School Vattamkulam (IHRD)",
+        "board": "Kerala State Board",
+        "specialization": "Science Group(PCMB) with Computer Science",
+        "percentage": "84.5%"
+    },
+    {
+        "headingName": "Higher Secondary(12th)",
+        "qualificationName": "Higher School(10th)",
+        "institution": "Technical Higher Secondary School Vattamkulam (IHRD)",
+        "board": "Kerala State Board",
+        "specialization": "",
+        "percentage": "93%"
+    }
+]

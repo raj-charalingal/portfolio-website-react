@@ -7,8 +7,10 @@ import {
 } from "react-router-dom";
 import Home from './contents/Home/Home';
 import Skills from './contents/Skills/Skills';
-import Work_history from './contents/Work-History/WorkHistory';
-
+import WorkHistory from './contents/Work-History/WorkHistory';
+import Education from './contents/Education/Education';
+import About from './contents/About/About';
+import Contact from './contents/Contact/Contact';
 
 
 
@@ -24,11 +26,20 @@ function App() {
          <Route exact path="/">
           <Home />
         </Route>
+        <Route path="/About">
+          <About/>
+        </Route>
+        <Route path="/Education">
+          <Education/>
+        </Route>
         <Route path="/Skills">
           <Skills />
         </Route>
         <Route path="/WorkHistory">
-          <Work_history/>
+          <WorkHistory/>
+        </Route>
+        <Route path="/Contact">
+          <Contact/>
         </Route>
       </div>
     </Router>

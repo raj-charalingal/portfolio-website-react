@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+.about {
+    margin: "2%" !important;
+  
+    width: 100%;
+    background-image: linear-gradient(180deg,#2C3E50, #000000);
+    color: beige;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+

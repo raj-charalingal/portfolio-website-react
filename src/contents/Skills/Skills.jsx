@@ -38,7 +38,7 @@ class Skills extends Component {
                     <div className="skill">
                         <p>{obj.skillName}</p>
                         <div className={dynamicInnerDivClassName}>
-                            <span className={dynamicSpanClassName}>{obj.percent}%</span>
+                            {/* <span className={dynamicSpanClassName}>{obj.percent}%</span> */}
                         </div>   
                     </div></li>
             })}

@@ -16,11 +16,6 @@ import "./WorkHistory.Styles.css";
 export default function WorkHistory() {
   const classes = useStyles();
 
-  /*const [expanded, setExpanded] = React.useState("panel1");
-   const handleChange = (panel) => (event, newExpanded) => {
-    setExpanded(newExpanded ? panel : false);
-  }; */
-
   const [workingExperience1, setworkingExperience1] = React.useState([]);
   const [workingExperience2, setworkingExperience2] = React.useState({});
   const [workingExperience3, setworkingExperience3] = React.useState([]);
