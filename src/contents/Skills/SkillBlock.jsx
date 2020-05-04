@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './Skills.Styles.css';
+
 
 // Constructor function for SKill objects
 function Skill(skillName, percent){
@@ -6,7 +8,7 @@ function Skill(skillName, percent){
     this.percent = percent;
 }
 
-class Skills extends Component {
+class SkillBlock extends Component {
     constructor(props)
     {
         super(props);
@@ -48,4 +50,3 @@ class Skills extends Component {
     }
     
     export default Skills
-    

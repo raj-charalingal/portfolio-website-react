@@ -18,26 +18,7 @@ export const useStyles =makeStyles((theme) => ({
    
   },
 }));
-/* export const useStyles = makeStyles({
-  
-  root: {
-    minWidth: 275,
-    backgroundColor: "rgb(0, 48, 63)",
-    color: "rgb(217, 217, 217)",
-       
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(2.8)',
-  },
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
-}); */
+
 export const ExpansionPanel = withStyles({
     root: {
       border: "1px solid rgba(0, 0, 0, .125)",
@@ -51,6 +32,7 @@ export const ExpansionPanel = withStyles({
       "&$expanded": {
         margin: "auto",
       },
+      
     },
     
     expanded: {},

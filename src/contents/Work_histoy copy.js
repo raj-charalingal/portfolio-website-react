@@ -26,7 +26,7 @@ function WorkContent(projectName, description) {
   console.log(`lastProject is====>${lastProject}`);
 
 } */
-export default function Work_History() {
+export default function WorkHistory() {
   const [workHistoryData, setworkHistoryData] = React.useState([]);
   const [expanded, setExpanded] = React.useState("panel1");
 

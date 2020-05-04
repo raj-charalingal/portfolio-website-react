@@ -5,9 +5,9 @@ import {
   BrowserRouter as Router,
   Route
 } from "react-router-dom";
-import Home from './contents/Home';
-import Skills from './contents/Skills';
-import Work_history from './contents/Work_histoy';
+import Home from './contents/Home/Home';
+import Skills from './contents/Skills/Skills';
+import Work_history from './contents/Work-History/WorkHistory';
 
 
 
@@ -24,10 +24,10 @@ function App() {
          <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/skills">
+        <Route path="/Skills">
           <Skills />
         </Route>
-        <Route path="/Work_history">
+        <Route path="/WorkHistory">
           <Work_history/>
         </Route>
       </div>
